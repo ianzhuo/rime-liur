@@ -1,5 +1,7 @@
-# rime-liur 
+# rime-liur
 基於[PTT/afrink大大的RIME-蝦米方案(iOS、中英混輸、動態造詞)](https://www.ptt.cc/bbs/Liu/M.1546884178.A.B99.html)
+
+鼠鬚管 + 嘸蝦米 + 注音模式 + 拼音模式 + 讀音反查 + 簡繁轉換 + 中英混輸
 
 ### 基於afrink大大的功能
 此段都是[PTT/afrink大大的RIME-蝦米方案(iOS、中英混輸、動態造詞)](https://www.ptt.cc/bbs/Liu/M.1546884178.A.B99.html) Copy過來
@@ -77,6 +79,6 @@
 但也會再安裝一次注音輸入，花較多時間
 
 
-[blog好讀版](http://windclara.gitlab.io/%E5%9C%A8Mac%E4%B8%8B%E4%BD%BF%E7%94%A8%E9%BC%A0%E9%AC%9A%E7%AE%A1(RIME)%20+%20%E5%98%B8%E8%9D%A6%E7%B1%B3%EF%BC%8C%E4%B8%A6%E6%93%81%E6%9C%89%E6%B3%A8%E9%9F%B3%E6%A8%A1%E5%BC%8F%E3%80%81%E8%AE%80%E9%9F%B3%E5%8F%8D%E6%9F%A5%E3%80%81%E4%B8%AD%E8%8B%B1%E6%B7%B7%E8%BC%B8%E3%80%81%E8%87%AA%E5%8B%95%E9%80%A0%E8%A9%9E/)
+[blog好讀版](https://blog.typeart.cc/rime-liur/guide/)
 
-[我的修正方法](http://windclara.gitlab.io/%E8%87%AA%E8%A1%8C%E4%BF%AE%E6%AD%A3%20afrink%E7%89%88%E5%98%B8%E8%9D%A6%E7%B1%B3%E7%9A%84%E6%B3%A8%E9%9F%B3%E6%A8%A1%E5%BC%8F%E3%80%81%E8%87%AA%E5%AE%9A%E7%BE%A9%E8%A9%9E%E5%BD%99%E3%80%81%E5%8B%95%E6%85%8B%E9%80%A0%E8%A9%9E/)
+[我的修正方法](https://blog.typeart.cc/rime-liur/fix/)
