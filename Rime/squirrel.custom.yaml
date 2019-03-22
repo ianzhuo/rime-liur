@@ -1,0 +1,7 @@
+# Squirrel settings
+# encoding: utf-8
+
+patch:
+  app_options:
+    com.microsoft.VSCode:
+      ascii_mode: false

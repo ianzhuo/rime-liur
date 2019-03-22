@@ -21,6 +21,7 @@ encoder:
 import_tables:
   - liur_Trad
   - liur_TradExt
+  - liur_customWords
   # - liur_Japan
 # 如果要啟動日文漢字就取消註解
 ...
