@@ -49,7 +49,10 @@
     1. 因RIME預設有關閉特定程式的中文輸入，只能輸入英文，如VSCode、iTerms等。詳見[官方文件/在特定程序裏關閉中文輸入](https://github.com/rime/home/wiki/CustomizationGuide#%E5%9C%A8%E7%89%B9%E5%AE%9A%E7%A8%8B%E5%BA%8F%E8%A3%8F%E9%97%9C%E9%96%89%E4%B8%AD%E6%96%87%E8%BC%B8%E5%85%A5)
     2. 若常用的工具被RIME關閉，可在此文件自行加入開啟
     3. 預設先加入VSCode，其餘程式可照抄改成自己的程式就可以了
-
+5. **增加六大主題：** 整合[RIME『洋蔥 純注音 版』注音設定檔](http://deltazone.pixnet.net/blog/post/264319309-%E9%BC%A0%E9%AC%9A%E7%AE%A1%E6%B3%A8%E9%9F%B3%E6%96%B9%E6%A1%88---%E7%AC%A6%E5%90%88%E4%B8%80%E8%88%AC%E6%B3%A8%E9%9F%B3%E4%BD%BF%E7%94%A8%E8%80%85%E7%BF%92%E6%85%A3%E8%A8%AD)之主題樣式
+    1. 特別感謝L’Étranger 大大提供主題
+    2. 於`squirrel.custom.yaml`選擇喜歡的主題
+    
 ## MAC下安裝鼠鬚管 + 嘸蝦米 + 注音輸入完整流程
 1. 到[rime官方](https://rime.im/download/)下載鼠鬚管並安裝
 2. 使用[plum](https://github.com/rime/plum)安裝注音輸入法包
