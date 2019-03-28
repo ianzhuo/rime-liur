@@ -106,7 +106,7 @@ translator:
   max_phrase_length: 10
   enable_completion: true
   comment_format:
-    - xform/^~(.+)$/>[$1]   #將提示碼改為較美觀的型式
+    - xform/^~.*(.)$/>[$1]   #將提示碼改為較美觀的型式
   disable_user_dict_for_patterns:
     - "^[',.].*$"
   initial_quality: 1000
@@ -213,7 +213,7 @@ recognizer:
 # 注音反查引導鍵
     pinyin: "`[a-z']*'?$"
 # 漢語拼音輸入引導鍵
-    mkst: "^;[a-z,.']*$"
+    mkst: "^;[a-z,.'`]*$"
 #造詞引導
     liurqry: ";;[a-z']*'?$"
 # 讀音反查引導鍵
