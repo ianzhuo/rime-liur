@@ -10,12 +10,12 @@ patch:
   # 下列指定欲使用的主題，共有： mac_white2、lost_temple、apathy、psionics、mac_white、mac_white2
   style/color_scheme: mac_white2
   # style/horizontal: true      # 候選橫排
-  style/inline_preedit: false #true
+  style/inline_preedit: true #true
   style/corner_radius: 4 #10
   style/line_spacing: 4 #6 #1
   style/spacing: 4 #10 #5
   style/candidate_format: '%c. %@'
-  style/font_face: 'Times-Roman,PingFangTC-Light,AppleColorEmoji' #,HanaMinA,HanaMinB
+  style/font_face: 'Operator Mono Bold, HanziPen TC Bold, HanziPen SC Bold, PingFangTC-Light, Times-Roman, AppleColorEmoji' #,HanaMinA,HanaMinB
   style/font_point: 20 #21
   style/label_font_face: 'Andale Mono'
   style/label_font_point: 14 #12 #18
