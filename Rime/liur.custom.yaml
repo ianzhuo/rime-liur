@@ -1,6 +1,5 @@
 patch:
-  translator/enable_completion: true  #打開逐碼提示碼；若改為 false 的話可以關掉，但似乎要連同下面這一項一起改為 false 才會完全關掉。原因尚不明
-  fixed/enable_completion: true
+  translator/enable_completion: true  #打開逐碼提示碼
   "switches/@2/reset": 0  #反查開關 (0為關閉，1為開啟)
   menu:
     alternative_select_keys: "0123456789" #重碼選擇鍵，如沒有寫-預設 ctrl+123456789
