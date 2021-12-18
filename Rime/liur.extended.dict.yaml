@@ -22,7 +22,8 @@ import_tables:
   - liur_Trad
   - liur_TradExt
   - liur_customWords
-  # - liur_Japan
+  - liur_English
+  #- liur_Japan
 # 如果要啟動日文漢字就取消註解
 ...
 #人工編碼詞，適合超長句子，或包含數字的詞
