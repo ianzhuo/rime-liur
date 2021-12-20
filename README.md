@@ -74,6 +74,19 @@
 因已安裝好注音，此時重新部署只需要3~5秒就行
 除非將整個build目錄刪除使其重新產生
 
+## 英文字典
+* 英文字典來源於 [Github  dwyl/english-words](https://github.com/dwyl/english-words)
+
+* 需使用 nodejs
+
+* 執行以下指令
+
+``` bash
+$ node develop/create-english.dict.js 
+```
+
+* 可建立或更新 Rime/liur_English.dict.yaml 檔案
+
 ## FAQ
 ### 我部署使用一段時間後，又有再增加自定義詞彙，但後面加的一直沒有出現？
 請先確認是否有按重新部署。若按了仍然無效
