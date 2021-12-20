@@ -74,7 +74,7 @@
 因已安裝好注音，此時重新部署只需要3~5秒就行
 除非將整個build目錄刪除使其重新產生
 
-## 英文字點
+## 英文字典
 * 英文字典來源於 [Github  dwyl/english-words](https://github.com/dwyl/english-words)
 
 * 需使用 nodejs
