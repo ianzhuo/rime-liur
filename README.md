@@ -74,20 +74,34 @@
 因已安裝好注音，此時重新部署只需要3~5秒就行
 除非將整個build目錄刪除使其重新產生
 
-## 英文字典
-* 英文字典來源於 [Github  dwyl/english-words](https://github.com/dwyl/english-words)
-
-* 需使用 nodejs
-
-* 執行以下指令
-
+## (2021/12/20更新)增加英文字典
+- 感謝 [yozian](https://github.com/yozian) 大大提供
+- 英文字典來源於 [Github  dwyl/english-words](https://github.com/dwyl/english-words)
+- 現行已產生出英文字典檔，預設關閉
+- 若要開啟英文字典，打開`liur.extended.dict.yaml`，將`# - liur_English`改成`- liur_English`(即刪除前面的`#`)
+- 或可使用 nodejs 執行以下指令後，自行手動建立或更新 `Rime/liur_English.dict.yaml` 檔案
 ``` bash
 $ node develop/create-english.dict.js 
 ```
 
-* 可建立或更新 Rime/liur_English.dict.yaml 檔案
+功能如下：
 
+方便打英文時自動帶出英文單字
+![rime-eng-word](https://user-images.githubusercontent.com/11897061/146645594-a41d499f-3ba6-4aab-9ab1-94074a3a7c2f.png)
+
+英文單字， 字碼小於 3 碼者，需補上 「;」 當結束 (或可以直接按 enter )
+![rime-eng-word-less-than-3](https://user-images.githubusercontent.com/11897061/146645685-66060eb2-f6d0-47c1-b5f5-abaf33217e6f.png)
 ## FAQ
+### (12/12更新) 更新到 Monterey 後，無法安裝鼠鬚管
+
+從官網下載最新版本(12/12此時為0.15.2)時，安裝後卻不會正常出現鼠鬚管
+可至[GitHub Release](https://github.com/LEOYoon-Tsaw/squirrel/releases)下載重新編譯的版本
+由LEOYoon-Tsaw大大 fork 官方的重新編譯版本
+雖與官網差0.0.1版，但應該沒太大影響
+安裝重新編譯版本後即可正常出現鼠鬚管
+
+若是更新上來的，當初安裝的yaml檔仍存在鼠鬚管目錄，直接部署即可！
+
 ### 我部署使用一段時間後，又有再增加自定義詞彙，但後面加的一直沒有出現？
 請先確認是否有按重新部署。若按了仍然無效
 到BUILD資料夾，將`liur`開頭的檔案刪掉，如下：
