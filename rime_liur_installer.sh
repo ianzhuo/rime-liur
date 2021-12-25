@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 # created by Ryan Chou
 # more info: https://blog.typeart.cc/rime-liur/guide/
 echo "     +---------------------------+"
