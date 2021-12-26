@@ -42,7 +42,7 @@
       ```
       即可自動將`中華民國`加入自定義詞彙，以後輸入`caoo`就可以得到中華民國
     - 因mac的鍵盤只有backspace(往前刪除)，無del，測試發現若要刪除自動造詞，按`Control+k`就行
-    - 如要刪除前例造的`caoo`→`中華民國`，先打出`caoo`，接著按`Control+k`即可清除
+    - 如要刪除前例造的`caoo`→`中華民國`，先打出`caoo`，接著按`Control+k`或`backspace`即可清除
 3. **修正自定義詞彙順序** 
     - 預設會排在第一碼，影響原本字碼使用。現在會乖乖的排在原本字碼後面了
     - 已回報原作者afrink，原作者反饋之後更新會修正
@@ -88,7 +88,7 @@
 因已安裝好注音，此時重新部署只需要3~5秒就行
 除非將整個build目錄刪除使其重新產生
 
-## (2021/12/20更新)增加英文字典(預設關閉)
+## 增加英文字典(預設關閉)
 - 感謝 [yozian](https://github.com/yozian) 大大提供
 - 英文字典來源於 [Github  dwyl/english-words](https://github.com/dwyl/english-words)
 - 現行已產生出英文字典檔，預設關閉
@@ -106,7 +106,7 @@ $ node develop/create-english.dict.js
 英文單字， 字碼小於 3 碼者，需補上 「;」 當結束 (或可以直接按 enter )
 ![rime-eng-word-less-than-3](https://user-images.githubusercontent.com/11897061/146645685-66060eb2-f6d0-47c1-b5f5-abaf33217e6f.png)
 ## FAQ
-### (2021/12/12更新) 更新到 Monterey 後，無法安裝鼠鬚管
+### 更新到 Monterey 後，無法安裝鼠鬚管
 
 從官網下載最新版本(2021/12/12此時為0.15.2)時，安裝後卻不會正常出現鼠鬚管
 可至[GitHub Release](https://github.com/LEOYoon-Tsaw/squirrel/releases)下載重新編譯的版本
@@ -116,7 +116,7 @@ $ node develop/create-english.dict.js
 
 若是更新上來的，當初安裝的yaml檔仍存在鼠鬚管目錄，直接部署即可！
 
-### (2021/12/20更新)按 Caps Lock 仍會切換成英文，但想要與 Windows 習慣一致，Caps Lock 純切換大小寫、shift 切換中英打
+### 按 Caps Lock 仍會切換成英文，但想要與 Windows 習慣一致，Caps Lock 純切換大小寫、shift 切換中英打
 
 1. 點擊右上角的輸入法
 2. 打開`鍵盤偏好設定`
