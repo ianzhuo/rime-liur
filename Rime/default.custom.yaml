@@ -5,12 +5,12 @@ customization:
   modified_time: "Tue Jun  5 12:55:24 2018"
   rime_version: 1.3.0
 patch:
-    page_size: 7	#選單 每頁 顯示 個數
+  page_size: 7	#選單 每頁 顯示 個數
   ascii_composer:
     good_old_caps_lock: true
     switch_key: {Caps_Lock: noop, Control_L: noop, Control_R: noop, Eisu_toggle: clear, Shift_L: clear, Shift_R: clear}
   schema_list:
-    - {schema: liur}
+    - schema: liur
     - schema: luna_pinyin
     - schema: luna_pinyin_simp
     - schema: luna_pinyin_fluency
@@ -19,7 +19,7 @@ patch:
     - schema: cangjie5
     - schema: stroke
     - schema: terra_pinyin
-    # - {schema: liur_Trad}
+    # - schema: liur_Trad
   switcher:
     abbreviate_options: false
     caption: "〔方案選單〕"
