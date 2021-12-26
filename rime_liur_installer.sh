@@ -10,7 +10,6 @@ echo "本工具會透過 plum 初始化「預設所有輸入法」與下載「�
 read -p "請輸入Y/y以繼續安裝。或輸入其他任意文字，Enter後取消安裝：" ANS
 if [[ $ANS == [Yy] ]]; then
     curl -fsSL https://raw.githubusercontent.com/hsuanyi-chou/rime-liur/master/do_install_rime_liur.sh | bash
-    else
-      echo "取消安裝"
-      exit
+else
+    echo "取消安裝"
 fi
