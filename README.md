@@ -58,18 +58,16 @@
 ## MAC下安裝【鼠鬚管 + 嘸蝦米】完整流程
 ### 自動安裝
 (2021/12/26新增)
-增加批次指令，簡化安裝流程。將自動初始化所有輸入法
+增加批次指令，一鍵安裝嘸蝦米
 若曾經安裝過或有自己的客制化，請記得**備份自己的設定檔再執行指令**
 或經由手動安裝步驟自行操作
 
 1. 到[rime官方](https://rime.im/download/)下載鼠鬚管並安裝
-2. 打開終端機(terminal)，輸入`curl -fsSL https://git.io/rime_liur_installer | bash`，自動初始化注音與嘸蝦米輸入法
-3. (若不需要則跳過此步)打開鼠鬚管按`用戶設定`，打開`liur_customWords.dict.yaml`，將自己常用的自定義詞彙加入
-   - **注意！中間須以`<tab>`隔開**。格式：`<自定義文字><tab><編碼>`
-   - 如想用`tptr`打出`台北火車站`，則輸入`台北火車站<tab>tptr`
-4. 鼠鬚管按`重新部署`
+2. 打開終端機(terminal)，輸入`curl -fsSL https://git.io/rime_liur_installer | bash`
+3. 開始使用嘸蝦米！
 
 ### 手動安裝
+
 1. 到[rime官方](https://rime.im/download/)下載鼠鬚管並安裝
 2. 使用[plum](https://github.com/rime/plum)安裝注音輸入法包
     - **安裝方法：** 打開終端機，執行`curl -fsSL https://git.io/rime-install | bash`就會自動將注音輸入的yaml檔放進rime的`用戶設定`裡。此時尚未真正將注音安裝進RIME
@@ -82,6 +80,7 @@
 5. 鼠鬚管按`重新部署`，會開始安裝所有輸入法(約莫30秒~1分鐘)，安裝好後會出現`部署完成`，可以開始使用！
 
 ## 未來再增加自定義詞彙
+
 1. 一樣加在`liur_customWords.dict.yaml`
 2. 再按重新部署
 
