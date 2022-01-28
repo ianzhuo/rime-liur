@@ -18,8 +18,7 @@ echo "※ 若有自己的客制化版本尚未備份，請盡速按下 ctrl + c 
 echo
 if [ ! -f "$SQUIRREL_APP" ]; then
     echo "檢查到尚未安裝鼠鬚管！終止作業"
-    echo "請先至鼠鬚管官方網站下載並安裝鼠鬚管後，再次執本工具"
-    echo "鼠鬚管官方網站下載主程式：https://rime.im/download/"
+    echo "請先至鼠鬚管官方網站(https://rime.im/download/)下載並安裝鼠鬚管後，再次執行本工具"
     exit
 fi
 for i in {5..1};
