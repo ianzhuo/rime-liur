@@ -209,7 +209,7 @@ recognizer:
   patterns:
     email: ^[a-z][-_.0-9a-z]*@.*$
     url: ^(www[.]|https?:|ftp:|mailto:).*$
-    phonetic: "';[1qaz2wsxedcrfv5tgbyhnujm8ik,9ol.0p;/-6347]*'?$"
+    phonetic: "';[1qaz2wsxedcrfv5tgbyhnujm8ik,9ol.0p;/6347-]*'?$" # 「-」為「ㄦ」，移到最後面，讓正則可正確抓取
 # 注音反查引導鍵
     pinyin: "`[a-z']*'?$"
 # 漢語拼音輸入引導鍵
